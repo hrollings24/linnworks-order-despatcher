@@ -7,11 +7,9 @@
 
 import Foundation
 
-
-
 public struct BatchResponseLinks: Codable {
 
-    public enum ModelType: String, Codable { 
+    public enum ModelType: String, Codable {
         case _get = "GET"
         case put = "PUT"
         case post = "POST"
@@ -26,7 +24,7 @@ public struct BatchResponseLinks: Codable {
         self.href = href
     }
 
-    public enum CodingKeys: String, CodingKey { 
+    public enum CodingKeys: String, CodingKey {
         case type = "Type"
         case href = "Href"
     }

@@ -11,6 +11,7 @@
 		AF15E4562976C68B00C0D6F4 /* InventoryItemExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF15E4552976C68B00C0D6F4 /* InventoryItemExtension.swift */; };
 		AF15E4582976F96300C0D6F4 /* ItemQuantityPickerAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF15E4572976F96300C0D6F4 /* ItemQuantityPickerAlert.swift */; };
 		AF15E45A2977036300C0D6F4 /* CanDespatchModek.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF15E4592977036300C0D6F4 /* CanDespatchModek.swift */; };
+		AF6953072BF6A33300A2DB6C /* BatchResponseLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6953062BF6A33300A2DB6C /* BatchResponseLinks.swift */; };
 		AF80287D298938EE00837082 /* LinnworksApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF80287C298938EE00837082 /* LinnworksApiError.swift */; };
 		AF8028812989436C00837082 /* 100066.json in Resources */ = {isa = PBXBuildFile; fileRef = AF8028802989436C00837082 /* 100066.json */; };
 		AFD26160293F8C4F00A04F0F /* LinnworksOrderDespatcherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD2615F293F8C4F00A04F0F /* LinnworksOrderDespatcherApp.swift */; };
@@ -77,7 +78,6 @@
 		AFFEA63729743A90005C78FE /* BatchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFEA62329743A90005C78FE /* BatchResponse.swift */; };
 		AFFEA63829743A90005C78FE /* InventoryItemAddRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFEA62429743A90005C78FE /* InventoryItemAddRequest.swift */; };
 		AFFEA63929743A90005C78FE /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFEA62529743A90005C78FE /* Category.swift */; };
-		AFFEA64429744A88005C78FE /* BatchResponseLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFEA64329744A88005C78FE /* BatchResponseLinks.swift */; };
 		AFFEA64629744DE6005C78FE /* OrderFullViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFEA64529744DE6005C78FE /* OrderFullViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -89,6 +89,7 @@
 		AF15E4552976C68B00C0D6F4 /* InventoryItemExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryItemExtension.swift; sourceTree = "<group>"; };
 		AF15E4572976F96300C0D6F4 /* ItemQuantityPickerAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemQuantityPickerAlert.swift; sourceTree = "<group>"; };
 		AF15E4592977036300C0D6F4 /* CanDespatchModek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanDespatchModek.swift; sourceTree = "<group>"; };
+		AF6953062BF6A33300A2DB6C /* BatchResponseLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchResponseLinks.swift; sourceTree = "<group>"; };
 		AF80287C298938EE00837082 /* LinnworksApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinnworksApiError.swift; sourceTree = "<group>"; };
 		AF8028802989436C00837082 /* 100066.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 100066.json; sourceTree = "<group>"; };
 		AFD2615C293F8C4F00A04F0F /* LinnworksOrderDespatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinnworksOrderDespatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -154,8 +155,6 @@
 		AFFEA62329743A90005C78FE /* BatchResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatchResponse.swift; sourceTree = "<group>"; };
 		AFFEA62429743A90005C78FE /* InventoryItemAddRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryItemAddRequest.swift; sourceTree = "<group>"; };
 		AFFEA62529743A90005C78FE /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
-		AFFEA64229744A7D005C78FE /* BatchResponseLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchResponseLinks.swift; sourceTree = "<group>"; };
-		AFFEA64329744A88005C78FE /* BatchResponseLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BatchResponseLinks.swift; path = "../../../../../../../../../../Downloads/inventory-swagger/InventoryAPI/Classes/Swaggers/Models/BatchResponseLinks.swift"; sourceTree = "<group>"; };
 		AFFEA64529744DE6005C78FE /* OrderFullViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderFullViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -426,14 +425,13 @@
 		AFFEA64129744A73005C78FE /* Inventory */ = {
 			isa = PBXGroup;
 			children = (
-				AFFEA64329744A88005C78FE /* BatchResponseLinks.swift */,
 				AFFEA61F29743A90005C78FE /* InventoryItemRequest.swift */,
 				AFFEA62029743A90005C78FE /* InventoryItem.swift */,
-				AFFEA64229744A7D005C78FE /* BatchResponseLinks.swift */,
 				AFFEA62129743A90005C78FE /* BatchResponseItems.swift */,
 				AFFEA62329743A90005C78FE /* BatchResponse.swift */,
 				AFFEA62429743A90005C78FE /* InventoryItemAddRequest.swift */,
 				AFFEA62529743A90005C78FE /* Category.swift */,
+				AF6953062BF6A33300A2DB6C /* BatchResponseLinks.swift */,
 			);
 			path = Inventory;
 			sourceTree = "<group>";
@@ -472,7 +470,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
-				LastUpgradeCheck = 1340;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					AFD2615B293F8C4F00A04F0F = {
 						CreatedOnToolsVersion = 13.4;
@@ -564,6 +562,7 @@
 				AF15E45A2977036300C0D6F4 /* CanDespatchModek.swift in Sources */,
 				AFFEA5A0296616C4005C78FE /* InlineResponse403.swift in Sources */,
 				AFFEA5B8296E072F005C78FE /* SettingsViewModel.swift in Sources */,
+				AF6953072BF6A33300A2DB6C /* BatchResponseLinks.swift in Sources */,
 				AFFEA59C296616C4005C78FE /* JSONEncodableEncoding.swift in Sources */,
 				AFD26173293F957100A04F0F /* LoggedOutMainView.swift in Sources */,
 				AFFEA5D329742DD0005C78FE /* LinnworksApiHandler.swift in Sources */,
@@ -621,7 +620,6 @@
 				AFFEA5A2296616C4005C78FE /* InlineResponse504.swift in Sources */,
 				AFFEA5A5296616C4005C78FE /* JSONEncodingHelper.swift in Sources */,
 				AFFEA5BD2970C537005C78FE /* OrdersViewModel.swift in Sources */,
-				AFFEA64429744A88005C78FE /* BatchResponseLinks.swift in Sources */,
 				AFFEA5402952616E005C78FE /* OAuthError.swift in Sources */,
 				AF15E4582976F96300C0D6F4 /* ItemQuantityPickerAlert.swift in Sources */,
 				AFFEA597296616C4005C78FE /* APIHelper.swift in Sources */,
@@ -669,6 +667,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -729,6 +728,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -758,6 +758,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LinnworksOrderDespatcher/Preview Content\"";
 				DEVELOPMENT_TEAM = G3CQTBK5N8;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LinnworksOrderDespatcher/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Allow access to scan barcodes";
@@ -766,7 +767,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -791,6 +792,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LinnworksOrderDespatcher/Preview Content\"";
 				DEVELOPMENT_TEAM = G3CQTBK5N8;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LinnworksOrderDespatcher/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Allow access to scan barcodes";
@@ -799,7 +801,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
