@@ -180,6 +180,7 @@ public struct Address: Codable, Hashable {
 
 public enum Country: String, Codable, Hashable {
     case unknown = "UNKNOWN"
+    case UnitedKingdom = "United Kingdom"
 }
 
 //
@@ -319,7 +320,7 @@ public struct Item: Codable, Hashable {
     public var itemNumber: String
     public var sku: String
     public var itemSource: ItemSource?
-    public var title: Title
+    public var title: String
     public var quantity: Int
     public var categoryName: JSONNull?
     public var compositeAvailablity: JSONNull?
@@ -427,7 +428,7 @@ public struct Item: Codable, Hashable {
         case stockItemID = "StockItemId"
     }
 
-    public init(itemID: String, itemNumber: String, sku: String, itemSource: ItemSource?, title: Title, quantity: Int, categoryName: JSONNull?, compositeAvailablity: JSONNull?, stockLevelsSpecified: Bool, onOrder: Int, onPurchaseOrder: JSONNull?, inOrderBook: JSONNull?, level: Int, minimumLevel: JSONNull?, availableStock: Int, pricePerUnit: Int, unitCost: Int, despatchStockUnitCost: Int, discount: Int, tax: Int, taxRate: Int, cost: Int, costIncTax: Int, compositeSubItems: [Item], isService: Bool, salesTax: Int, taxCostInclusive: Bool, partShipped: Bool, weight: Int, barcodeNumber: String?, market: Int, channelSKU: JSONNull?, channelTitle: JSONNull?, discountValue: Int, hasImage: Bool, imageID: JSONNull?, additionalInfo: [String], stockLevelIndicator: Int, shippingCost: Int, partShippedQty: Int, itemName: JSONNull?, batchNumberScanRequired: Bool, serialNumberScanRequired: Bool, binRack: JSONNull?, binRacks: JSONNull?, inventoryTrackingType: Int, isBatchedStockItem: Bool, isWarehouseManaged: Bool, isUnlinked: Bool, stockItemIntID: Int, boxes: JSONNull?, rowID: String, orderID: String, stockItemID: String) {
+    public init(itemID: String, itemNumber: String, sku: String, itemSource: ItemSource?, title: String, quantity: Int, categoryName: JSONNull?, compositeAvailablity: JSONNull?, stockLevelsSpecified: Bool, onOrder: Int, onPurchaseOrder: JSONNull?, inOrderBook: JSONNull?, level: Int, minimumLevel: JSONNull?, availableStock: Int, pricePerUnit: Int, unitCost: Int, despatchStockUnitCost: Int, discount: Int, tax: Int, taxRate: Int, cost: Int, costIncTax: Int, compositeSubItems: [Item], isService: Bool, salesTax: Int, taxCostInclusive: Bool, partShipped: Bool, weight: Int, barcodeNumber: String?, market: Int, channelSKU: JSONNull?, channelTitle: JSONNull?, discountValue: Int, hasImage: Bool, imageID: JSONNull?, additionalInfo: [String], stockLevelIndicator: Int, shippingCost: Int, partShippedQty: Int, itemName: JSONNull?, batchNumberScanRequired: Bool, serialNumberScanRequired: Bool, binRack: JSONNull?, binRacks: JSONNull?, inventoryTrackingType: Int, isBatchedStockItem: Bool, isWarehouseManaged: Bool, isUnlinked: Bool, stockItemIntID: Int, boxes: JSONNull?, rowID: String, orderID: String, stockItemID: String) {
         self.itemID = itemID
         self.itemNumber = itemNumber
         self.sku = sku
@@ -487,13 +488,6 @@ public struct Item: Codable, Hashable {
 
 public enum ItemSource: String, Codable, Hashable {
     case walmart = "WALMART"
-}
-
-public enum Title: String, Codable, Hashable {
-    case apiTest5 = "APITest5"
-    case cupcakesWithBlueberryFlavor = "CUPCAKES WITH BLUEBERRY FLAVOR"
-    case socks = "Socks"
-    case woodenChair = "wooden chair"
 }
 
 //

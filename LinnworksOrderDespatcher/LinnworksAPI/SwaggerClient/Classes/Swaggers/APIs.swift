@@ -7,7 +7,7 @@
 import Foundation
 
 open class SwaggerClientAPI {
-    public static var basePath = "https://apim-dev.linnworks.net/gateway/api/1.0"
+    public static var basePath = "https://apim-dev.linnworks.net/gateway/api/2.0"
     public static var credential: URLCredential?
     public static var customHeaders: [String:String] = [:]
     public static var requestBuilderFactory: RequestBuilderFactory = AlamofireRequestBuilderFactory()
