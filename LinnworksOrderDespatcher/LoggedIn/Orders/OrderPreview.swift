@@ -24,6 +24,16 @@ struct OrderPreviewView: View {
                 Text("Items: " + String(order.totalItemsSum)).font(.subheadline)
                 Spacer()
             }
+            HStack
+            {
+                Text("Despatch By: " + order.generalInfo.formattedDespatchByDateString).font(.subheadline)
+                Spacer()
+            }
+            HStack
+            {
+                Text("Recieved Date: " + order.generalInfo.formattedRecievedDateString).font(.subheadline)
+                Spacer()
+            }
         }
     }
 }

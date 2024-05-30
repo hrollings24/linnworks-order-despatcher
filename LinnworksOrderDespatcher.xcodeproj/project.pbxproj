@@ -12,6 +12,7 @@
 		AF15E4582976F96300C0D6F4 /* ItemQuantityPickerAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF15E4572976F96300C0D6F4 /* ItemQuantityPickerAlert.swift */; };
 		AF15E45A2977036300C0D6F4 /* CanDespatchModek.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF15E4592977036300C0D6F4 /* CanDespatchModek.swift */; };
 		AF6953072BF6A33300A2DB6C /* BatchResponseLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6953062BF6A33300A2DB6C /* BatchResponseLinks.swift */; };
+		AF7389D22C088AB7003F9A96 /* OrderExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7389D12C088AB7003F9A96 /* OrderExtensions.swift */; };
 		AF80287D298938EE00837082 /* LinnworksApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF80287C298938EE00837082 /* LinnworksApiError.swift */; };
 		AF8028812989436C00837082 /* 100066.json in Resources */ = {isa = PBXBuildFile; fileRef = AF8028802989436C00837082 /* 100066.json */; };
 		AFD26160293F8C4F00A04F0F /* LinnworksOrderDespatcherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD2615F293F8C4F00A04F0F /* LinnworksOrderDespatcherApp.swift */; };
@@ -91,6 +92,7 @@
 		AF15E4592977036300C0D6F4 /* CanDespatchModek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanDespatchModek.swift; sourceTree = "<group>"; };
 		AF6953062BF6A33300A2DB6C /* BatchResponseLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchResponseLinks.swift; sourceTree = "<group>"; };
 		AF7389D02C087FD9003F9A96 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		AF7389D12C088AB7003F9A96 /* OrderExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderExtensions.swift; sourceTree = "<group>"; };
 		AF80287C298938EE00837082 /* LinnworksApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinnworksApiError.swift; sourceTree = "<group>"; };
 		AF8028802989436C00837082 /* 100066.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 100066.json; sourceTree = "<group>"; };
 		AFD2615C293F8C4F00A04F0F /* LinnworksOrderDespatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinnworksOrderDespatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -388,6 +390,7 @@
 			isa = PBXGroup;
 			children = (
 				AFFEA5BA2970BFDF005C78FE /* OrderGenModels.swift */,
+				AF7389D12C088AB7003F9A96 /* OrderExtensions.swift */,
 			);
 			path = API1;
 			sourceTree = "<group>";
@@ -606,6 +609,7 @@
 				AFD26175293F9A0400A04F0F /* LoggedInMainView.swift in Sources */,
 				AFFEA5A4296616C4005C78FE /* Extensions.swift in Sources */,
 				AFFEA5A7296616C4005C78FE /* Configuration.swift in Sources */,
+				AF7389D22C088AB7003F9A96 /* OrderExtensions.swift in Sources */,
 				AFFEA5A1296616C4005C78FE /* InlineResponse400.swift in Sources */,
 				AFFEA544295BA63E005C78FE /* OAuthDetailsExtension.swift in Sources */,
 				AFFEA546295BA65D005C78FE /* BaseModel.swift in Sources */,
