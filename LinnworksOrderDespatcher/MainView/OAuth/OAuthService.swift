@@ -50,7 +50,6 @@ public class OAuthService: NSObject, ASWebAuthenticationPresentationContextProvi
                                         
         let authSession = ASWebAuthenticationSession(url: request.buildAuthURL(), callbackURLScheme: callbackScheme, completionHandler: { (callbackURL, error) in
             guard error == nil, let successURL = callbackURL else {
-               print("Nothing")
                return
             }
 

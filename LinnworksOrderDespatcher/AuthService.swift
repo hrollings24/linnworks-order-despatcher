@@ -97,16 +97,18 @@ class AuthService: NSObject, NSFetchedResultsControllerDelegate{
         let codeVerifier = generateCodeVerifier()
         let codeChallenge = generateCodeChallenge(codeVerifier: codeVerifier)
         
-        let clientID = ProcessInfo.processInfo.environment["LINNWORKS_CLIENT_ID"]
-        let clientSecret = ProcessInfo.processInfo.environment["LINNWORKS_CLIENT_SECRET"]
-        let redirectUrl = ProcessInfo.processInfo.environment["REDIRECT_URL"]
+        let clientID = Bundle.main.infoDictionary?["LINNWORKS_CLIENT_ID"] as! String
+        let clientSecret = Bundle.main.infoDictionary?["LINNWORKS_CLIENT_SECRET"] as! String
+        let escapedRedirectUrl = Bundle.main.infoDictionary?["REDIRECT_URL"] as! String
+        let redirectUrl = escapedRedirectUrl.replacingOccurrences(of: "\\/", with: "/")
+
 
         let request: OAuth2Request = OAuth2Request(
             authUrl: "https://dev-login.linnworks.net/connect/authorize",
             tokenUrl: "https://dev-login.linnworks.net/connect/token",
-            clientId: clientID!,
-            redirectUri: redirectUrl!,
-            clientSecret: clientSecret!,
+            clientId: clientID,
+            redirectUri: redirectUrl,
+            clientSecret: clientSecret,
             scopes: ["offline_access api:inventory:read"],
             codeChallenge: codeChallenge!,
             codeVerifier: codeVerifier!

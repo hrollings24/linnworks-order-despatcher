@@ -50,23 +50,6 @@
             ReferencedContainer = "container:LinnworksOrderDespatcher.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <EnvironmentVariables>
-         <EnvironmentVariable
-            key = "LINNWORKS_CLIENT_SECRET"
-            value = "2bb0b575-8144-476d-b5f2-91265c44c7e0"
-            isEnabled = "YES">
-         </EnvironmentVariable>
-         <EnvironmentVariable
-            key = "REDIRECT_URL"
-            value = "modeflick.LinnworksOrderDespatcher://dev-login.linnworks.net/ios/modeflick.LinnworksOrderDespatcher"
-            isEnabled = "YES">
-         </EnvironmentVariable>
-         <EnvironmentVariable
-            key = "LINNWORKS_CLIENT_ID"
-            value = "ext_app_cfbf8a3a-a6d7-4b85-98e2-ab9de81cf901"
-            isEnabled = "YES">
-         </EnvironmentVariable>
-      </EnvironmentVariables>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
