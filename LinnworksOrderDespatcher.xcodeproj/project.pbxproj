@@ -90,6 +90,7 @@
 		AF15E4572976F96300C0D6F4 /* ItemQuantityPickerAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemQuantityPickerAlert.swift; sourceTree = "<group>"; };
 		AF15E4592977036300C0D6F4 /* CanDespatchModek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanDespatchModek.swift; sourceTree = "<group>"; };
 		AF6953062BF6A33300A2DB6C /* BatchResponseLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatchResponseLinks.swift; sourceTree = "<group>"; };
+		AF7389D02C087FD9003F9A96 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		AF80287C298938EE00837082 /* LinnworksApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinnworksApiError.swift; sourceTree = "<group>"; };
 		AF8028802989436C00837082 /* 100066.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 100066.json; sourceTree = "<group>"; };
 		AFD2615C293F8C4F00A04F0F /* LinnworksOrderDespatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinnworksOrderDespatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -245,6 +246,7 @@
 				AFFEA549295E3B5C005C78FE /* AuthService.swift */,
 				AFFEA5B5296CBC6E005C78FE /* SettingsDataService.swift */,
 				AF15E4552976C68B00C0D6F4 /* InventoryItemExtension.swift */,
+				AF7389D02C087FD9003F9A96 /* Config.xcconfig */,
 			);
 			path = LinnworksOrderDespatcher;
 			sourceTree = "<group>";
