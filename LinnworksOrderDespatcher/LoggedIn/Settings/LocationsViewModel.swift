@@ -37,11 +37,10 @@ public class LocationsViewModel: NSObject, ObservableObject {
             
             //we should edit the settings object here, instead of creating a new one!
             
-            let settings = SettingsEntity(context: viewContext)
-            settings.locationName = locationName
-            settings.locationId = locationId
-            try settings.save()
-            print("saved")
+            SettingsDataService.shared.settingsData.first?.locationId = locationId
+            SettingsDataService.shared.settingsData.first?.locationName = locationName
+
+            try SettingsDataService.shared.settingsData.first?.save()
             SettingsDataService.shared.locationState = .True
         } catch {
             print(error)

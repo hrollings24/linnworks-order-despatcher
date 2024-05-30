@@ -22,8 +22,13 @@ public class OAuthService: NSObject, ASWebAuthenticationPresentationContextProvi
     }
     
     public func presentationAnchor(for session: ASWebAuthenticationSession) -> ASPresentationAnchor {
-        
-        return ASPresentationAnchor()
+        if Thread.isMainThread {
+            return ASPresentationAnchor()
+        } else {
+            return DispatchQueue.main.sync {
+                return ASPresentationAnchor()
+            }
+        }
     }
     
     public func SignInProper() async throws
